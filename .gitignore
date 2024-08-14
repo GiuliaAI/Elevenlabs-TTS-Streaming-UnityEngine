@@ -1,0 +1,97 @@
+# This .gitignore file is for a Unity project.
+
+# =============== #
+# Unity generated #
+# =============== #
+/[Ll]ibrary/
+# Exclude the entire `Library` folder
+
+/[Tt]emp/
+/[Oo]bj/
+/[Bb]uild/
+/[Bb]uilds/
+/[Ll]ogs/
+/[Mm]emoryCaptures/
+/[Asset Store]/
+
+# Exclude auto-generated user-specific files
+/[Uu]ser[Ss]ettings/
+
+# ============ #
+# Unity specific #
+# ============ #
+*.csproj
+*.unityproj
+*.sln
+*.suo
+*.tmp
+*.user
+*.userprefs
+*.pidb
+*.booproj
+*.svd
+*.pdb
+*.mdb
+*.opendb
+*.VC.db
+*.pidb.meta
+
+# Exclude specific folders
+/[Aa]ssets/AssetStoreTools*
+
+# ============ #
+# VS and VS Code #
+# ============ #
+.vscode/
+*.code-workspace
+.vscode/settings.json
+
+# Visual Studio Code
+.vscode/
+
+# Rider
+.idea/
+*.sln.iml
+
+# Unity3D generated meta files
+*.pidb.meta
+
+# Unity3D Generated File On Crash Reports
+sysinfo.txt
+
+# Exclude crash reports
+sysinfo.txt
+
+# Builds
+/[Bb]uilds/
+/[Bb]uild/
+/[Ll]ogs/
+
+# ============ #
+# OS generated #
+# ============ #
+
+# Windows image file caches
+Thumbs.db
+Thumbs.db:encryptable
+
+# Folder config file
+Desktop.ini
+
+# Recycle Bin used on file shares
+$RECYCLE.BIN/
+
+# Temporary files
+.DS_Store
+._*
+.Spotlight-V100
+.Trashes
+*.swp
+*.lock
+*.pyc
+.nfs*
+
+# ============ #
+# config.json #
+# ============ #
+Assets/Config/config.json

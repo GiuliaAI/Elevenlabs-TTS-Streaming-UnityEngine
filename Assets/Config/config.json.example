@@ -1,0 +1,11 @@
+{
+    "ElevenlabsApiKey": "sk_",
+    "ElevenlabsVoiceID": "21m00Tcm4TlvDq8ikWAM",
+    "ElevenlabsModelID": "eleven_turbo_v2_5",
+    "ElevenlabsStability": 0.5,
+    "ElevenlabsSimilarityBoost": 0.8,
+    "ElevenlabsLanguage": "it",
+    "WebsocketServerHost":"locahlost",
+    "WebsocketServerPort": 4989,
+    "WebsocketServerPath": "/ws"
+}
