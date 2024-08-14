@@ -96,3 +96,9 @@ $RECYCLE.BIN/
 # ============ #
 Assets/Config/config.json
 Assets/Config/config.json.meta
+
+# ============ #
+# other shits #
+# ============ #
+*.md.meta
+*.md.meta
