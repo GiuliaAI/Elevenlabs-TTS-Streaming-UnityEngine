@@ -1,5 +1,17 @@
 # Elevenlabs API stream for UnityEngine
 
+## ⚠️ Project Status: Work in Progress
+
+**Important Notice:** This project is currently a work in progress and is not yet functional. 
+
+We are actively working on integrating the Elevenlabs API with Unity via WebSocket streaming. However, several features are still under development, including the final audio playback implementation using Unity's `AudioSource`. 
+
+Please be aware that this project may contain bugs, incomplete features, and may not work as intended at this stage.
+
+We appreciate your understanding and patience as we continue to develop and improve this project.
+
+
+
 ## Introduction
 
 This Unity project is designed to integrate Elevenlabs API with streaming functionality via WebSocket. The project includes a WebSocket server that receives tokenized messages from the client and forwards them to the Elevenlabs API for processing.
@@ -117,9 +129,7 @@ When communicating with the WebSocket server, you need to send a JSON payload in
 - **Do not commit your `config.json` file to version control.** This file should be kept out of Git and other version control systems to ensure your API keys and server configurations remain secure.
 - The `.gitignore` file should already be configured to ignore `config.json`.
 
-## Example Usage
 
-When you run the project, the `ApiKeyLoader` script will automatically read the API key, Voice ID, and other configuration details from the `config.json` file and use them for the Elevenlabs integration and WebSocket server connection.
 
 ---
 
